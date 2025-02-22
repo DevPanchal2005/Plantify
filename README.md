@@ -29,8 +29,8 @@ Plantify/
 │── README.md          # Project documentation
 ```
 
-## 📸 Screenshots
-![Plantify Homepage](https://devpanchal2005.github.io/Plantify/assets/homepage.png)
+<!-- ## 📸 Screenshots
+![Plantify Homepage](https://devpanchal2005.github.io/Plantify/assets/homepage.png) -->
 
 ## 🛠 Installation & Usage
 1. Clone the repository:
