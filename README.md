@@ -1,6 +1,6 @@
 # Plantify
 
-![Plantify](https://devpanchal2005.github.io/Plantify/assets/banner.png)
+ <!--- ![Plantify](https://devpanchal2005.github.io/Plantify/assets/banner.png) -->
 
 🌿 **Plantify** is a modern and responsive eCommerce frontend for plant lovers. It offers an intuitive and user-friendly interface to browse and explore a wide range of plants, seeds, and gardening accessories.
 
