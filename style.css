@@ -1,0 +1,8 @@
+:root {
+  --nav-color: #fff8f5;
+}
+
+::selection {
+  background-color: #a7f3d0; /* Light green (Tailwind's emerald-200) */
+  color: #065f46; /* Dark green for text (Tailwind's emerald-900) */
+}
