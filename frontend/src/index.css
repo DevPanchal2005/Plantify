@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nav-color: #f0f9f0;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantify - Your Green Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 font-[Poppins]">
+    <nav class="bg-[var(--nav-color)] shadow-md px-6 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+
+            <!-- Logo -->
+            <a href="#" class="text-green-700 text-2xl font-bold flex items-center space-x-2">
+                <span class="font-[Pacifico] text-3xl">Plantify</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="hidden lg:flex space-x-6 text-gray-800 font-medium">
+
+                <!-- Plants Dropdown -->
+                <li class="relative group">
+                    <a href="#"
+                        class="text-green-800 transition group-hover:text-green-600 font-bold font-[Montserrat]">PLANTS</a>
+
+                    <!-- Dropdown Menu -->
+                    <ul
+                        class="absolute left-0 w-60 bg-[var(--nav-color)] shadow-lg rounded-md p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-20">
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Indoor Plants</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Flowering
+                                Plants</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Low Maintenance
+                                Plants</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Air Purifying
+                                Plants</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Low Light
+                                Plants</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Cacti &
+                                Succulents</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Hanging
+                                Plants</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Medicinal &
+                                Aromatic Plants</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Pet-Friendly
+                                Plants</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Fruit Plants</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Bundles</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">New Arrivals</a>
+                        </li>
+                        <li class="relative px-4 py-2 text-green-900 hover:bg-green-100 rounded-md">
+                            <a href="#" class="transition">Shop by Location</a>
+                            <!-- Submenu -->
+                            <ul
+                                class="absolute left-full top-0 w-48 bg-white shadow-lg rounded-md p-2 opacity-0 invisible hover:opacity-100 hover:visible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                                <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a
+                                        href="#">Balcony</a></li>
+                                <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a
+                                        href="#">Workspace</a></li>
+                                <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Living
+                                        Room</a></li>
+                                <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a
+                                        href="#">Bedroom</a></li>
+                            </ul>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Subscriptions</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <!-- Seeds Dropdown -->
+                <li class="relative group">
+                    <a href="#"
+                        class="text-green-800 transition group-hover:text-green-600 font-bold font-[Montserrat]">SEEDS</a>
+
+                    <!-- Dropdown Menu -->
+                    <ul
+                        class="absolute left-0 w-60 bg-[var(--nav-color)] shadow-lg rounded-md p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-20">
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Flower Seeds</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Vegetable
+                                Seeds</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Microgreen
+                                Seeds</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Herb Seeds</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Flower Bulbs</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Fruit Seeds</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Tree & Grass
+                                Seeds</a></li>
+                    </ul>
+                </li>
+
+                <!-- Pots & Planters Dropdown -->
+                <li class="relative group">
+                    <a href="#"
+                        class="text-green-800 transition group-hover:text-green-600 font-bold font-[Montserrat]">POTS &
+                        PLANTERS</a>
+
+                    <!-- Dropdown Menu -->
+                    <ul
+                        class="absolute left-0 w-60 bg-[var(--nav-color)] shadow-lg rounded-md p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-20">
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Plastic Pots</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Ceramic Pots</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Metal
+                                Planters</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Wooden
+                                Planters</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Hanaging
+                                Planters</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Plant Stands</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Seedling
+                                Trays</a></li>
+                    </ul>
+                </li>
+
+                <!-- Plant Care Dropdown -->
+                <li class="relative group">
+                    <a href="#"
+                        class="text-green-800 transition group-hover:text-green-600 font-bold font-[Montserrat]">Plant
+                        Care</a>
+
+                    <!-- Dropdown Menu -->
+                    <ul
+                        class="absolute left-0 w-60 bg-[var(--nav-color)] shadow-lg rounded-md p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-20">
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Potting Mix &
+                                Fertilizers</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Garden Tools</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Watering Tools &
+                                Accessories</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Garden Decor &
+                                Accessories</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Pest Control</a>
+                        </li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Video
+                                Consultation - Doctor Green</a></li>
+                    </ul>
+                </li>
+
+                <!-- Gifting Dropdown -->
+                <li class="relative group">
+                    <a href="#"
+                        class="text-green-800 transition group-hover:text-green-600 font-bold font-[Montserrat]">GIFTING</a>
+
+                    <!-- Dropdown Menu -->
+                    <ul
+                        class="absolute left-0 w-60 bg-[var(--nav-color)] shadow-lg rounded-md p-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-20">
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Corporate/Bulk
+                                Gifting</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Personlaised
+                                Gifting</a></li>
+                        <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Gift Cards</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="text-green-800 hover:text-green-600 transition font-bold font-[Montserrat]"><a
+                        href="#">BLOG</a></li>
+                <li class="text-green-800 hover:text-green-600 transition font-bold font-[Montserrat]"><a
+                        href="#">OFFERS</a></li>
+            </ul>
+
+            <!-- Search Bar & Icons -->
+            <div class="flex items-center space-x-4">
+                <div class="relative md:block">
+                    <input type="text" placeholder="Search for plants, seeds..."
+                        class="w-60 border rounded-full px-4 py-2 text-sm focus:ring-2 focus:ring-green-500">
+                    <span class="absolute right-3 top-2 text-gray-400">
+                        🔍
+                    </span>
+                </div>
+
+                <a href="#" class="text-gray-800 hover:text-green-600 transition">👤</a>
+                <a href="#" class="text-gray-800 hover:text-green-600 transition relative">
+                    🛒
+                    <span
+                        class="absolute -top-2 -right-2 bg-green-600 text-white text-xs px-2 py-0.5 rounded-full">1</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="menuBtn" class="lg:hidden flex items-center text-gray-800 text-2xl">
+            ☰
+        </button>
+        </div>
+    </nav>
+
+    <!-- Sidebar for Mobile Menu -->
+    <!-- Sidebar Navigation -->
+    <div id="sidebar"
+        class="fixed left-0 top-0 w-64 h-full bg-[var(--nav-color)] shadow-lg transform -translate-x-full transition-transform duration-300 lg:hidden z-50 overflow-y-auto">
+        <button id="closeBtn" class="absolute top-4 right-4 text-gray-800 text-2xl">x</button>
+
+        <ul class="mt-16 space-y-4 px-6 text-gray-800 font-medium">
+
+            <!-- Plants Dropdown -->
+            <li class="relative">
+                <button
+                    class="w-full text-left text-green-800 hover:text-green-600 font-bold flex justify-between items-center"
+                    onclick="toggleDropdown('plantsDropdown')">
+                    PLANTS ▼
+                </button>
+                <ul id="plantsDropdown" class="hidden mt-2 space-y-2 pl-4">
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Indoor Plants</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Flowering
+                            Plants</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Low Maintenance
+                            Plants</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Air Purifying
+                            Plants</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Low Light
+                            Plants</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Cacti &
+                            Succulents</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Hanging
+                            Plants</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Medicinal &
+                            Aromatic Plants</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Pet-Friendly
+                            Plants</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Fruit Plants</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Bundles</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">New Arrivals</a>
+                    </li>
+                    <li class="relative px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Shop by
+                            Location</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Subscriptions</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Seeds Dropdown -->
+            <li class="relative">
+                <button
+                    class="w-full text-left text-green-800 hover:text-green-600 font-bold flex justify-between items-center"
+                    onclick="toggleDropdown('seedsDropdown')">
+                    SEEDS ▼
+                </button>
+                <ul id="seedsDropdown" class="hidden mt-2 space-y-2 pl-4">
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Flower Seeds</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Vegetable
+                            Seeds</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Microgreen
+                            Seeds</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Herb Seeds</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Flower Bulbs</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Fruit Seeds</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Tree & Grass
+                            Seeds</a></li>
+                </ul>
+            </li>
+
+            <li class="relative">
+                <button
+                    class="w-full text-left text-green-800 hover:text-green-600 font-bold flex justify-between items-center"
+                    onclick="toggleDropdown('potsDropdown')">
+                    POTS & PLANTERS ▼
+                </button>
+                <ul id="potsDropdown" class="hidden mt-2 space-y-2 pl-4">
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Plastic Pots</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Ceramic Pots</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Metal
+                            Planters</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Wooden
+                            Planters</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Hanaging
+                            Planters</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Plant Stands</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Seedling
+                            Trays</a></li>
+                </ul>
+            </li>
+
+            <!-- Plant Care Dropdown -->
+            <li class="relative">
+                <button
+                    class="w-full text-left text-green-800 hover:text-green-600 font-bold flex justify-between items-center"
+                    onclick="toggleDropdown('plantCareDropdown')">
+                    PLANT CARE ▼
+                </button>
+                <ul id="plantCareDropdown" class="hidden mt-2 space-y-2 pl-4">
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Potting Mix &
+                            Fertilizers</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Garden Tools</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Watering Tools &
+                            Accessories</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Garden Decor &
+                            Accessories</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Pest Control</a>
+                    </li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Video
+                            Consultation - Doctor Green</a></li>
+                </ul>
+            </li>
+
+            <!-- Gifting Dropdown in Sidebar -->
+            <li class="relative">
+                <button
+                    class="w-full text-left text-green-800 hover:text-green-600 font-bold flex justify-between items-center"
+                    onclick="toggleDropdown('giftingDropdown')">
+                    GIFTING ▼
+                </button>
+                <ul id="giftingDropdown" class="hidden mt-2 space-y-2 pl-4">
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Corporate/Bulk
+                            Gifting</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Personlaised
+                            Gifting</a></li>
+                    <li class="px-4 py-2 text-green-900 hover:bg-green-100 rounded-md"><a href="#">Gift Cards</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="text-green-800 hover:text-green-600  transition font-bold"><a href="#">BLOG</a></li>
+            <li class="text-green-800 hover:text-green-600 transition font-bold"><a href="#">OFFERS</a></li>
+
+
+        </ul>
+    </div>
+
+
+    <!-- JavaScript for Sidebar Toggle & Dropdowns -->
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const closeBtn = document.getElementById('closeBtn');
+        const sidebar = document.getElementById('sidebar');
+
+        menuBtn.addEventListener('click', () => {
+            sidebar.classList.remove('-translate-x-full');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            sidebar.classList.add('-translate-x-full');
+        });
+
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('hidden');
+        }
+    </script>
+
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="relative w-full">
+        <img src="assets/banner.png" alt="Banner" class="w-full h-64 object-cover">
+        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+            <div class="bg-green-900 bg-opacity-75 text-white p-6 rounded-lg text-center">
+                <h2 class="text-4xl font-bold">Get 10% Off with <span class="text-yellow-400">SAVE10</span></h2>
+                <p class="text-lg mt-2">On orders above ₹1499!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="p-10">
+        <h2 class="text-4xl font-bold font-extrabold text-green-900 mb-4">Plants</h2>
+        <p class="text-gray-700 text-lg mb-6">Plants make for the best house companions, suitable for all your moods and
+            every aesthetic.</p>
+
+        <div class="flex justify-between mb-6">
+            <button
+                class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition flex items-center">
+                <span class="mr-2">&#x2699;</span> Filter
+            </button>
+            <button class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition">
+                Sort By ▼
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Product Card 1 - Brazilian Wood Plant -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative">
+                <span
+                    class="absolute top-3 left-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold rounded z-10">76%</span>
+                <span
+                    class="absolute top-3 right-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold rounded z-10">Trending</span>
+                <div class="relative w-full h-60 overflow-hidden rounded-lg">
+                    <img src="assets/brazilwood-plant/main_image.jpg" alt="Brazilian Wood Plant"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/brazilwood-plant/hover_image.jpg" alt=" Brazilian Wood Plant Hover"
+                        class="w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Brazilian Wood Plant</h3>
+                <p class="text-gray-600 mt-2 line-through">₹1,999</p>
+                <p class="text-green-700 text-lg font-bold">From ₹499</p>
+                <div class="text-yellow-500 text-lg">★★★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+            <!-- Product Card 2 - Peace Lily Plant -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative">
+                <span class="absolute top-3 left-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">26%</span>
+                <div class="relative w-full h-60 overflow-hidden rounded-lg">
+                    <img src="assets/peace-lily-plant/main_image.jpg" alt="Peace Lily Plant"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/peace-lily-plant/hover_image.jpg" alt="Peace Lily Plant Hover"
+                        class="w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Peace Lily Plant</h3>
+                <p class="text-gray-600 mt-2 line-through">₹399</p>
+                <p class="text-green-700 text-lg font-bold">From ₹299</p>
+                <div class="text-yellow-500 text-lg">★★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+            <!-- Product Card 3 - Bamboo Palm Plant -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative">
+                <span class="absolute top-3 left-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">21%</span>
+                <span
+                    class="absolute top-3 right-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">Bestseller</span>
+                <div class="relative w-full h-60 overflow-hidden rounded-lg">
+                    <img src="assets/bamboo-palm-plant/main_image.jpg" alt="Bamboo Palm Plant"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/bamboo-palm-plant/hover_image.jpg" alt=" Bamboo Palm Plant Hover"
+                        class="w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Bamboo Palm Plant</h3>
+                <p class="text-gray-600 mt-2 line-through">₹399</p>
+                <p class="text-green-700 text-lg font-bold">From ₹299</p>
+                <div class="text-yellow-500 text-lg">★★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+            <!-- Product Card 4 - Jade Plant Mini -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative">
+                <span class="absolute top-3 left-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">7%</span>
+                <span
+                    class="absolute top-3 right-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">Bestseller</span>
+                <div class="relative w-full h-60 overflow-hidden rounded-lg">
+                    <img src="assets/jade-plant-mini/main_image.jpg" alt="Jade Mini Plant"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/jade-plant-mini/hover_image.jpg" alt="Jade Mini Plant Hover"
+                        class="w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Jade Plant Mini</h3>
+                <p class="text-gray-600 mt-2 line-through">₹299</p>
+                <p class="text-green-700 text-lg font-bold">From ₹279</p>
+                <div class="text-yellow-500 text-lg">★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+            <!-- Product Card 5 - Monstera Deliciosa Plant XL -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative">
+                <!-- Discount Tag -->
+                <span class="absolute top-3 left-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">15%</span>
+                <!-- Image Container -->
+                <div class="relative w-full h-60">
+                    <img src="assets/monstera-xl/main_image.jpg" alt="Monstera Deliciosa Plant XL"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/monstera-xl/hover_image.jpg" alt="Monstera Deliciosa Plant XL Hover"
+                        class="absolute inset-0 w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <!-- Product Info -->
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Monstera Deliciosa Plant - XL</h3>
+                <p class="text-gray-600 mt-2 line-through">₹3,499</p>
+                <p class="text-green-700 text-lg font-bold">₹2,999</p>
+                <div class="text-yellow-500 text-lg">★★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+            <!-- Product Card 6 - Monstera Deliciosa Plant -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative group">
+                <span
+                    class="absolute top-3 right-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">Trending</span>
+                <div class="relative w-full h-60">
+                    <img src="assets/monstera/main_image.jpg" alt="Monstera Deliciosa Plant"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/monstera/hover_image.jpg" alt="Monstera Deliciosa Plant Hover"
+                        class="absolute inset-0 w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Monstera Deliciosa Plant</h3>
+                <p class="text-gray-600 mt-2 line-through">₹2,499</p>
+                <p class="text-green-700 text-lg font-bold">₹1,499 - ₹1,999</p>
+                <div class="text-yellow-500 text-lg">★★★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+            <!-- Product Card 7 - Anthurium Red Plant -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative group">
+                <span class="absolute top-3 left-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">21%</span>
+                <div class="relative w-full h-60">
+                    <img src="assets/anthrium/main_page.jpg" alt="Anthurium Red Plant"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/anthrium/hover_image.jpg" alt="Anthurium Red Plant Hover"
+                        class="absolute inset-0 w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Anthurium Red Plant</h3>
+                <br>
+                <p class="text-gray-600 mt-2 line-through">₹999</p>
+                <p class="text-green-700 text-lg font-bold">From ₹799</p>
+                <div class="text-yellow-500 text-lg">★★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+            <!-- Product Card 8 - Lucky Bamboo Plant 3 Layer -->
+            <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition relative group">
+                <span class="absolute top-3 left-3 bg-yellow-400 text-black px-2 py-1 text-sm font-bold z-10">31%</span>
+                <div class="relative w-full h-60">
+                    <img src="assets/lucky-bamboo/main_image.jpg" alt="Lucky Bamboo Plant - 3 Layer"
+                        class="w-full h-full object-cover rounded-lg transition duration-300 ease-in-out hover:opacity-0">
+                    <img src="assets/lucky-bamboo/hover_image.webp" alt="Lucky Bamboo Plant Hover"
+                        class="absolute inset-0 w-full h-full object-cover rounded-lg absolute top-0 left-0 opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                </div>
+                <h3 class="text-2xl font-semibold mt-4 text-green-800">Lucky Bamboo Plant - 3 Layer</h3>
+                <p class="text-gray-600 mt-2 line-through">₹499</p>
+                <p class="text-green-700 text-lg font-bold">From ₹349</p>
+                <div class="text-yellow-500 text-lg">★★★★★</div>
+                <button
+                    class="mt-4 bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition w-full">View
+                    Product</button>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer class="bg-[var(--nav-color)] text-gray-900 py-10 px-5">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+
+            <!-- About Us -->
+            <div>
+                <h3 class="font-semibold text-lg uppercase mb-3">About Us</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Our Story</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                    <li><a href="#" class="hover:underline">Contact Us</a></li>
+                    <li><a href="#" class="hover:underline">Locate Stores</a></li>
+                    <li><a href="#" class="hover:underline">Own Grown</a></li>
+                    <li><a href="#" class="hover:underline">Garden Services</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Care -->
+            <div>
+                <h3 class="font-semibold text-lg uppercase mb-3">Customer Care</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Track Order</a></li>
+                    <li><a href="#" class="hover:underline">Shipping Policy</a></li>
+                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:underline">FAQs</a></li>
+                    <li><a href="#" class="hover:underline">Refund Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Offers & Rewards -->
+            <div>
+                <h3 class="font-semibold text-lg uppercase mb-3">Offers & Rewards</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Plant Parent Club</a></li>
+                    <li><a href="#" class="hover:underline">Coupons</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div>
+                <h3 class="font-semibold text-lg uppercase mb-3">Get in Touch</h3>
+                <ul class="space-y-2">
+                    <li><a href="https://wa.me/1234567890" class="hover:underline">WhatsApp: 1234567890</a></li>
+                    <li><a href="tel:1234567890" class="hover:underline">Call: +91-1234567890</a></li>
+                    <li><a href="mailto:support@plantify.com" class="hover:underline">Email: support@plantify.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h3 class="font-semibold text-lg uppercase mb-3">Sign Up for Our Newsletter</h3>
+                <div class="relative">
+                    <input type="email" placeholder="Enter email address"
+                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-green-600 focus:border-green-600">
+                    <button class="absolute right-2 top-2 text-gray-500">→</button>
+                </div>
+                <p class="text-sm text-gray-600 mt-2">Get plant care tips, offers, and updates.</p>
+
+                <!-- Social Media -->
+                <div class="mt-4 flex space-x-4 z-10">
+                    <a href="#" class="text-xl text-gray-600 hover:text-green-700">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="text-xl text-gray-600 hover:text-green-700">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="#" class="text-xl text-gray-600 hover:text-green-700">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-xl text-gray-600 hover:text-green-700">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-xl text-gray-600 hover:text-green-700">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="mt-10 text-center text-sm text-gray-600">
+            <p>© 2025, <span class="font-semibold text-green-700">Plantify</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
